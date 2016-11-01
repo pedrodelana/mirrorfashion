@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h1{
+    background-image: url("../_img/sobre-background.jpg");
+}
+
+h2{
+    border-bottom: 2px double #333333;
+}
+
+figure{
+    background-color: #F2EDED;
+    border: 1px groove #ccc;
+    text-align: center;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+
