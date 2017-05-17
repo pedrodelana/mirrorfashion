@@ -7,11 +7,11 @@ p{
 /*colocando padrão ao texto na body .*/
 body{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color #333333;
+    color: #333333;
 }
 
 h1{
-    background-image: url("../_img/sobre-background.jpg");
+    /*background-image: url("../_img/sobre-background.jpg");*/
 }
 
 .sacola {
@@ -22,11 +22,24 @@ h1{
     width: 140px;
 
 }
-
+/*Tamanho da letra do menu opcoes , tudo que estiver dentro de ul*/
 .menu-opcoes ul {
     font-size: 15px;
 }
-
+/*Cor das letras letra do menu opcoes */
 .menu-opcoes a {
     color: #003366;
+}
+/*Pega o conteudo de menu opcoes e coloca um ao lado do outro com margem de 20 px */
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.sacola {
+    padding-top: 8px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
 }
